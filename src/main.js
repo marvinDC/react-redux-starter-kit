@@ -2,6 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import createStore from './store/createStore'
 import './styles/main.scss'
+require('bootstrap/dist/js/bootstrap.bundle.js')
+var $ = require('jquery');
+window.$ = $;
+
 
 // Store Initialization
 // ------------------------------------
